@@ -1,0 +1,12 @@
+.menuIcon {
+    width: 40px ;
+    padding-right: 10px;
+}
+
+.ant-menu.ant-menu-light .ant-menu-item-selected.customclass {
+    background-color: green !important ; /*Overriden property*/
+}
+
+.menuLabel{
+    color: #FFF;
+}

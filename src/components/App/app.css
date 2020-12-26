@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+
+* {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.pathPlaceholder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    height: 100vh;
+}
+
+/*Overriden property*/
+.ant-menu-item-selected {
+    background-color: #FFC480 !important ; 
+    color: white;
+}

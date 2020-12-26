@@ -1,0 +1,89 @@
+.notificationsCard{
+    border-radius: 15px;
+    width: 330px;    
+    height: 624px;
+}
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notificationsTitle{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.eventsTitle{
+    font-size: 20px;
+    line-height: 24px;
+    color: #B0B0B0;
+    position: absolute;
+    right: 20px;
+}
+
+.notificationsContainer{
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+
+.userPhoto{
+    width: 46px;
+    height: 54px;
+    background: #FFD9D9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notificationContent{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90px;
+    border-top: 1px solid #ECECEC;;
+}
+
+.notification:nth-child(1) > .notificationContent{
+    border-top: none;
+}
+
+.userName{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.notificationText{
+    font-size: 12px;
+    line-height: 14px;
+    color: #756F6F;
+}
+
+.notificationTime{
+    font-size: 7px;
+    line-height: 8px;
+    color: #756F6F;
+}
+
+.viewAllBtn{
+    background: #F8F8F8;
+    border-radius: 15px 15px 0px 0px;
+    border:none;
+    color: #756F6F;
+    font-size: 9px;
+    line-height: 8px;
+    position: absolute;
+    bottom: 11px;
+    left:50%;
+    transform: translateX(-50%);
+}
